@@ -56,6 +56,10 @@ body::-webkit-scrollbar {
     padding: 25% 0 !important;
 }
 
+.navPage {
+    margin-top: 89px;
+}
+
 .row-height h1{
     margin-left: 7.5% !important;
     margin-right: 7.5% !important;
