@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+
+/* .page {
+display: flex;
+flex-wrap: wrap;
+} */
+  
+body {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    overflow-y: scroll;
+}
+
+.navbar_background {
+    position:absolute;
+    height:58px;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.leadImg {
+    background-image: url("images/Atomium1.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.leadImg2 {
+    background-image: url("images/fog.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.leadImg3 {
+    background-image: url("images/buildings.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.row-height {
+    height: 100%;
+    text-align: center;
+    
+    align-items:center !important;
+    padding: 25% 0 !important;
+}
+
+.row-height h1{
+    margin-left: 7.5% !important;
+    margin-right: 7.5% !important;
+}
+.text_input {
+    background-color: white !important;
+    border-color: black !important;
+    border: 3px solid #1c87c9;
+    /* align-items: center !important; */
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+
+.section {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row_2_text_right {
+    /* border: 3px solid #1c87c9; */
+    background-color: white;
+}
+  
+.row_3_text_left {
+    /* border: 3px solid #9ea1a3; */
+    background-color: white;
+}
+
+.upwardIMG,
+.fogIMG,
+.buildingsIMG {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+
+.fogIMG {
+    background-image: url("images/fog.jpg");
+}
+
+.buildingsIMG {
+    background-image: url("images/buildings.jpg");
+}
+
+.upwardIMG {
+    background-image: url("images/Atomium1.jpg");
+}
+
+
+.mypage {
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+@media only screen and (min-width: 961px) {
+    .row_2_image_left {
+        order: 1;
+    }
+    .row_2_text_right {
+        order: 2;
+    }
+    .row_3_text_left {
+        order: 3;
+    }
+    .row_3_image_right {
+        order: 4;
+    }
+
+    .row_2_text_right,
+    .row_3_text_left {
+        width: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .row_2_image_left,
+    .row_3_image_right {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .row_2_image_left {
+        order: 2;
+        height: 400px;
+    }
+    .row_2_text_right {
+        order: 1;
+        height: 150px;
+    }
+    .row_3_text_left {
+        order: 3;
+        height: 150px;
+    }
+    .row_3_image_right {
+        order: 4;
+        height: 400px;
+    }
+    .main_image {
+        height: 600px;
+    }
+    .row_2_image_left,
+    .row_3_image_right,
+    .row_2_text_right,
+    .row_3_text_left {
+        width: 100%;
+
+    }
+  }
+
+  @media only screen and (max-width: 401px) {
+    .row_2_image_left {
+        order: 2;
+        height: 400px;
+    }
+    .row_2_text_right {
+        order: 1;
+        height: 150px;
+    }
+    .row_3_text_left {
+        order: 3;
+        height: 150px;
+    }
+    .row_3_image_right {
+        order: 4;
+        height: 400px;
+    }
+    .main_image {
+        height: 400px;
+    }
+    .row_2_image_left,
+    .row_3_image_right,
+    .row_2_text_right,
+    .row_3_text_left {
+        width: 100%;
+
+    }
+  }
+
