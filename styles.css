@@ -134,11 +134,14 @@ body::-webkit-scrollbar {
         order: 4;
     }
 
+    .text_part {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
     .row_2_text_right,
     .row_3_text_left {
         width: 50%;
-        margin-left: 20px;
-        margin-right: 20px;
+        
     }
 
     .row_2_image_left,
