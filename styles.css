@@ -128,6 +128,13 @@ body::-webkit-scrollbar {
     background-image: url("images/faraway.JPG")
 }
 
+.navigationIMG {
+    background-image: url("images/metro.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 
 .mypage {
     width: 100%px;
