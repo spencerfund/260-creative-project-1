@@ -95,6 +95,7 @@ body::-webkit-scrollbar {
     background-color: white;
 }
 
+.farawayIMG,
 .upwardIMG,
 .fogIMG,
 .buildingsIMG {
@@ -113,6 +114,10 @@ body::-webkit-scrollbar {
 
 .upwardIMG {
     background-image: url("images/Atomium1.jpg");
+}
+
+.farawayIMG {
+    background-image: url("images/faraway.JPG")
 }
 
 
