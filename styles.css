@@ -135,6 +135,13 @@ body::-webkit-scrollbar {
     background-size: cover;
 }
 
+.aboutIMG {
+    background-image: url("images/cleaners-compressed.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 
 .mypage {
     width: 100%px;
