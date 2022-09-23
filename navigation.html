@@ -7,9 +7,128 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 <body>
-    
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-light opacity-75">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.jpg" alt="agence belge logo" height="36">
+            </a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="navigation.html">Getting there</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>                                                          
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Map -->
+
+    <div class="container-md text-center navPage">
+        <h1>PLAN YOUR TRIP</h1>
+        <iframe class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.558455770455!2d4.339360651214357!3d50.894882063022116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3ac00000001%3A0x5293071d68a63709!2sAtomium!5e0!3m2!1sen!2sus!4v1663882297602!5m2!1sen!2sus" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Address and Travel Info -->
+
+    <div class="container-md">
+        <div class="row text-center mt-5">
+            <div class="col-lg-6">
+                <h3 class="mt-5">ADDRESS</h3>
+                <p>Place de l'Atomium / Atomiumplein 1<br>1020 Bruxelles, Belgium</p>
+                <h3 class="mt-4">ACCESS BY CAR</h3>
+                <p>The Atomium is accessible via the A201 and the E40<br>15 minutes from De Brouckère Metro Station<br>20 minutes from Brussels South Train Station<br>20-30 minutes from Brussels International Airport</p>
+                <p></p>
+            </div>
+            <div class="col-lg-6 px-5">
+                <h3 class="mt-5">ACCESS BY METRO</h3>
+                <p><strong>From De Brouckère Metro Station:</strong><br>Take Metro 1 to Beekant Station,<br>switch and take Metro 6 to Heysel / Heizel Station</p>
+                <p><strong>From Brussels South Train Station:</strong><br>Take Metro 6 to Heysel / Heizel station</p>
+                <p><strong>From Brussels Internation Airport:</strong><br>Take Bus 12 (airport line) to Trône / Troon Station,<br>switch and take Metro 6 to Heysel / Heizel Station</p>
+            </div>   
+        </div>
+    </div>
+
+    <!-- Nearby -->
+
+    <h1 class="text-center mt-5">NEARBY ATTRACTIONS</h1>
+    <div class="container-md">
+        <div class="row text-center">
+            <div class="col-lg-3 mt-3">
+                <div class="card text-bg-light" style="width: auto;">
+                    <img src="images/adam-museum.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADAM - Brussels Design Museum</h5>
+                        <p class="card-text">The only museum in Brussels, dedicated to design from the XXth century until today, situated next to the Atomium.</p>
+                        <a href="http://www.adamuseum.org/adam-museum-en.html" class="btn btn-secondary">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+                <div class="card text-bg-light" style="width: auto;">
+                    <img src="images/mini-europe.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mini-Europe</h5>
+                        <p class="card-text">Located at the foot of the Atomium, Mini-Europe is the only park where you can visit the whole of Europe in a couple of hours. A truly unique voyage!</p>
+                        <a href="https://www.minieurope.com/en/" class="btn btn-secondary">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+                <div class="card text-bg-light" style="width: auto;">
+                    <img src="images/brussels-planetarium.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The Brussels Planetarium</h5>
+                        <p class="card-text">The Planetarium of the Royal Observatory of Belgium, one of the largest in Europe, is a magical place to discover the beauty of the starry sky.</p>
+                        <a href="https://planetarium.be/en" class="btn btn-secondary">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mt-3">
+                <div class="card text-bg-light" style="width: auto;">
+                    <img src="images/chinese-pavilion.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chinese Pavilion and Japanese Tower</h5>
+                        <p class="card-text">The Chinese Pavilion, situated amidst the green surroundings of the royal estate at Laeken, together with the nearby Japanese Tower, form a remarkable exotic ensemble.</p>
+                        <a href="https://www.visit.brussels/en/visitors/venue-details.Chinese-Pavilion-Museums-of-the-Far-East.225532" class="btn btn-secondary">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <footer>
+            <div class="text-center p-3 text-white bg-white">
+                <p class="text-dark">Copyright: Spencer and Sarah Fund, 2022</p>
+            </div>
+        </footer>
+    </div>
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
