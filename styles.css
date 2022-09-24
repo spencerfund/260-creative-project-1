@@ -144,6 +144,13 @@ body {
     background-size: cover;
 }
 
+.constructionIMG {
+    background-image: url("images/atomium-construction.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 .navigationIMG {
     background-image: url("images/metro.jpg");
     background-repeat:no-repeat;
