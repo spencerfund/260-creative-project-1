@@ -12,8 +12,8 @@ flex-wrap: wrap;
 body {
     font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif !important;
     overflow-x: hidden;
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    overflow-y: scroll;
+    /* -ms-overflow-style: none;
+    overflow-y: scroll; */
 }
 
 .navbar_background {
@@ -23,9 +23,10 @@ body {
     left: 0;
     background-color: white;
 }
-body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
 
 .leadImg {
     background-image: url("images/Atomium1.jpg");
@@ -134,6 +135,13 @@ body::-webkit-scrollbar {
 
 .farawayIMG {
     background-image: url("images/faraway.JPG")
+}
+
+.nightIMG {
+    background-image: url("images/night.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .navigationIMG {
